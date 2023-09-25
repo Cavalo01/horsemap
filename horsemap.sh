@@ -79,4 +79,4 @@ else
     echo "Site Está Funcionando: Não" >> "$output_file"
 fi
 
-echo "Website consultado com sucesso! Os resultados foram salvos em $output_file."
+echo "Website consultado com sucesso! Digite nano $output_file para ver as informações."
