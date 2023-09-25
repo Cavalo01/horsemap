@@ -1,4 +1,4 @@
-pkg install nmap && pkg install curl && pkg install ncftp && pkg install lynx &&
+pkg install nmap && pkg install curl && pkg install netcat-openbsd && pkg install lynx &&
 
 banner='
 ╭╮╱╭┳━━━┳━━━┳━━━┳━━━┳━╮╭━┳━━━┳━━━╮
