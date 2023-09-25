@@ -25,5 +25,8 @@ curl -O $site >> HsReply.txt
 echo "Informações detalhadas:" >> HsReply.txt
 curl -I $site >> HsReply.txt
 
+echo "Vulnerabilidades encontradas:" >> HsReply.txt
+nmap -p- -A $site >> HsReply.txt 2>&1 >> HsReply.txt
+
 echo "Website consultado com sucesso! Os resultados foram salvos em HsReply.txt."
 echo "Digite nano HsReply.txt para ver os resultados e rm HsReply.txt para esvaziar."
