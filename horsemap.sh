@@ -35,6 +35,7 @@ nmap -p- -A "$site" >> "$output_file"
 
 echo "Sistema Operacional Do Alvo:" >> "$output_file"
 nmap -O "$site" >> "$output_file"
+echo "Aviso Do Admin: se apareceu um bagulho de QUITTING so ignora"
 
 echo "Informações da varredura rápida:" >> "$output_file"
 nmap -F "$site" >> "$output_file"
